@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(135, 245, 190);
+}
+
+.caja-informacion{
+    border: solid 1px rgb(105, 100, 100);
+    box-shadow: 5px 2px 20px black;
+    background: rgb(250, 245, 245);
+    width: 600px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.caja-informacion h1{
+    background: rgb(212, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.caja-foto{
+    padding-left: 170px;
+}
+
+.caja-datos{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 130px;
+}
+
+.caja-datos ol{
+    list-style: none;
+}
+
+.caja-datos ol li{
+    margin-bottom: 10px;
+}
+
+.caja-grande{
+    border: solid 1px black;
+    box-shadow: 5px 2px 20px black;
+    background: rgb(250, 245, 245);
+    width: 1100px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.caja-grande h1{
+    background: rgb(212, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.caja-grande p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.caja-contenido{
+    display:inline-block;
+    position: relative;
+    width: 300px;
+    background: rgb(211, 206, 206);
+    border: solid 1px black;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.caja-contenido img{
+    margin-top: 20px;
+    margin-left: 8%;
+}
+
+.caja-lista{
+   padding: 0px 0px 0px 30px;
+}
+
+.caja-contenido :hover{
+    background: rgb(172, 168, 168);
+}
+
+.button{
+    width: 120px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 480px;
+    margin-top: 30px;
+}
+
+.button-2{
+    width: 120px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+.lista-contacto{
+    list-style: none;
+}
+
+.lista-contacto li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.lista-contacto li p{
+    margin-left: 20px;
+    display: inline;
+}
